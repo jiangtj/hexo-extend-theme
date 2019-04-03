@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-hexo.extend.filter.register('before_post_render', function (data) {
+hexo.extend.filter.register('before_generate', function (data) {
 
     let config = hexo.config.theme_plus;
     let views = Array.isArray(config.views) ? config.views : [config.views];
