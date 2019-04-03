@@ -1,6 +1,6 @@
 {
   "name": "@jiangtj/hexo-theme-plus",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Modify any file in theme!",
   "main": "index.js",
   "private": false,
