@@ -1,11 +1,9 @@
 # Hexo Theme Plus
 
-[![README](https://img.shields.io/badge/README-中文-blue.svg?style=popout-square)](README-ZH.md)
+[![README](https://img.shields.io/badge/README-ENGLISH-blue.svg?style=popout-square)](README.md)
 [![npm](https://img.shields.io/npm/v/@jiangtj/hexo-theme-plus.svg?style=popout-square)](https://www.npmjs.com/package/@jiangtj/hexo-theme-plus)
 
-This is a very very simple plugin. You can see [index.js](index.js).
-
-Only replace any theme file to a custom file.
+This is a very very simple plugin. You can see [index.js](index.js). Only replace any theme file to a custom file.
 
 ## How to use?
 
