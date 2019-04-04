@@ -1,7 +1,7 @@
 {
   "name": "@jiangtj/hexo-theme-plus",
   "version": "0.1.1",
-  "description": "Modify any file in theme!",
+  "description": ":candy: replace any theme file to a custom file!",
   "main": "index.js",
   "private": false,
   "scripts": {
