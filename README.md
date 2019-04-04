@@ -13,7 +13,7 @@ Only replace any theme file to a custom file.
 yarn add @jiangtj/hexo-theme-plus
 ```
 
-Any file in custom path (default `custom/theme`) will replace theme file in same path. You can set another path:
+Any file in custom path (default `custom/theme`) will replace theme file in same path(in `layout` folder). You can set another path:
 ```yml
 theme_plus:
   custom_path: custom/theme # disabled: set 'false'
