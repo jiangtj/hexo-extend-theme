@@ -24,6 +24,7 @@ hexo.extend.filter.register('before_generate', function (data) {
     // setView
     views.forEach(view => {
         let viewFile = fs.readFileSync(view.file).toString();
+        view.path = view.path.replace(/\\/g, "/");
         hexo.theme.setView(view.path, viewFile);
         log(config, `Replace ${view.path} to ${view.file}, success!`);
     });

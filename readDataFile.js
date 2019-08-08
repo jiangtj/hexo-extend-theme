@@ -8,7 +8,7 @@ function readViews(dataPath, filePath) {
     let files = fs.readdirSync(readPath,{withFileTypes: true});
     files.forEach(item => {
         let nextFilePath = path.join(filePath, item.name);
-        if(item.isFile) {
+        if(item.isFile()) {
             views.push(nextFilePath);
         } else {
             views = views.concat(readViews(dataPath, nextFilePath));
