@@ -23,7 +23,11 @@ module.exports = function (hexo,config) {
     try {
         files = readViews(dataPath, '');
     } catch (error) {
-        log(config, `Can't read data from '${dataPath}' !`)
+        if (error.code === 'ENOENT') {
+            log(config, `不存在 '${dataPath}' !`)
+        } else {
+            log(config, error)
+        }
     }
     return files.map(item => {
         return {
