@@ -17,8 +17,8 @@ function readViews(dataPath, filePath) {
     return views;
 }
 
-module.exports = function (config) {
-    let dataPath = config.custom_path;
+module.exports = function (hexo,config) {
+    let dataPath = path.resolve(hexo.base_dir, config.custom_path);
     let files = [];
     try {
         files = readViews(dataPath, '');
@@ -28,7 +28,7 @@ module.exports = function (config) {
     return files.map(item => {
         return {
             path: item,
-            file: path.join(dataPath, item)
+            file: path.resolve(dataPath, item)
         }
     });
 }

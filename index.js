@@ -15,7 +15,7 @@ hexo.extend.filter.register('before_generate', function (data) {
 
     // read views from custom path
     if (config.custom_path) {
-        views = views.concat(require('./readDataFile')(config));
+        views = views.concat(require('./readDataFile')(hexo,config));
     }
 
     // read views from config file
