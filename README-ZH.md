@@ -1,14 +1,14 @@
 # Hexo Theme Plus
 
 [![README](https://img.shields.io/badge/README-ENGLISH-blue.svg?style=popout-square)](README.md)
-[![npm](https://img.shields.io/npm/v/@jiangtj/hexo-theme-plus.svg?style=popout-square)](https://www.npmjs.com/package/@jiangtj/hexo-theme-plus)
+[![npm](https://img.shields.io/npm/v/@jiangtj/hexo-extend-theme.svg?style=popout-square)](https://www.npmjs.com/package/@jiangtj/hexo-extend-theme)
 
 这是个很简单的插件，见[index.js](index.js).唯一的工作是替换掉在`layout`文件夹下的主题文件.
 
 ## 如何使用?
 
 ```bash
-yarn add @jiangtj/hexo-theme-plus
+yarn add @jiangtj/hexo-extend-theme
 ```
 
 在自定义路径(默认`custom/theme`)的文件将替换掉在`layout`文件夹下相同路径的主题文件.你可以设定一个其它路径:

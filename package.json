@@ -1,5 +1,5 @@
 {
-  "name": "@jiangtj/hexo-theme-plus",
+  "name": "@jiangtj/hexo-extend-theme",
   "version": "0.2.3",
   "description": ":candy: replace any theme file to a custom file!",
   "main": "index.js",
