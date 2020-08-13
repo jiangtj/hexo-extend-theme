@@ -1,0 +1,7 @@
+{
+  "extends": ["hexo"],
+  "root": true,
+  "rules": {
+    "linebreak-style":"off"
+  }
+}

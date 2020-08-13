@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/JiangTJ/hexo-theme-plus/issues"
   },
-  "homepage": "https://github.com/JiangTJ/hexo-theme-plus#readme"
+  "homepage": "https://github.com/JiangTJ/hexo-theme-plus#readme",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-hexo": "^4.1.0"
+  }
 }
