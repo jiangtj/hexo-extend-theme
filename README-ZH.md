@@ -3,7 +3,7 @@
 [![README](https://img.shields.io/badge/README-ENGLISH-blue.svg?style=popout-square)](README.md)
 [![npm](https://img.shields.io/npm/v/@jiangtj/hexo-extend-theme.svg?style=popout-square)](https://www.npmjs.com/package/@jiangtj/hexo-extend-theme)
 
-这是个很简单的插件，见[index.js](index.js).唯一的工作是替换掉在`layout`文件夹下的主题文件.
+这是个很简单的插件.唯一的工作是替换掉在`layout`文件夹下的主题文件.
 
 ## 如何使用?
 
