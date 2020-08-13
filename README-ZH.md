@@ -31,3 +31,8 @@ theme_plus:
     - path: 'layout.ejs'
       file: 'custom/layout.ejs'
 ```
+
+## 需要注意点
+
+- 替换文件中如果存在文件路径，可能会导致渲染出错
+- 无法监听文件修改，如果修改自定义文件，需重新运行`hexo s`才能查看变化

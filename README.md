@@ -34,3 +34,8 @@ theme_plus:
     - path: 'layout.ejs'
       file: 'custom/layout.ejs'
 ```
+
+## Pay attention
+
+- If there is a file path in the replacement file, it may cause rendering errors
+- Unable to listen for file modification. If you modify a custom file, you need to rerun 'hexo s' to view the changes
