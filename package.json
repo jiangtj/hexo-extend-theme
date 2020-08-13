@@ -1,6 +1,6 @@
 {
   "name": "@jiangtj/hexo-extend-theme",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": ":candy: replace any theme file to a custom file!",
   "main": "index.js",
   "private": false,
