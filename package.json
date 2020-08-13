@@ -7,6 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "index.js",
+    "readDataFile.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JiangTJ/hexo-theme-plus.git"
